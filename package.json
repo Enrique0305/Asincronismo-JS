@@ -4,7 +4,7 @@
   "description": "Ejercicio de Asincronismo con una API Web Publica",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "callback:challenge":"node src/callback/challenge.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Enrique0305/CURSO-PRACTICO-JS/issues"
   },
-  "homepage": "https://github.com/Enrique0305/CURSO-PRACTICO-JS#readme"
+  "homepage": "https://github.com/Enrique0305/CURSO-PRACTICO-JS#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
