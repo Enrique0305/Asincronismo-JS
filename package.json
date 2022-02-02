@@ -4,7 +4,8 @@
   "description": "Ejercicio de Asincronismo con una API Web Publica",
   "main": "src/index.js",
   "scripts": {
-    "callback:challenge":"node src/callback/challenge.js"
+    "callback:challenge":"node src/callback/challenge.js",
+    "promesas:challenge":"node src/promesas/challenge.js"
   },
   "repository": {
     "type": "git",
