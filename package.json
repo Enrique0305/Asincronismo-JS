@@ -8,6 +8,7 @@
     "callback:challenge": "node src/callback/challenge.js",
     "promesas:index":"node src/promesas/index.js",
     "promesas:challenge": "node src/promesas/challenge.js",
+    "async:index":"node src/async/index.js",
     "async:challenge": "node src/async/challenge.js"
   },
   "repository": {
