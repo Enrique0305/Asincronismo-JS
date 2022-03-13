@@ -1,13 +1,16 @@
 const fetchData = require('../utils/fetchData');
-const API = 'https://api.opendota.com/api/';
+const API = 'https://rickandmortyapi.com/api/character/';
 
 fetchData(API)
     .then(data =>{
-        console.log(data.info.description);
-        return fetchData(API+'heroes')
+        console.log(data.info.count);
+        return fetchData(`${API}${data.results[0].id}`)
     })
     .then(data =>{
-        console.log(data[0].localized_name);
-        console.log(data[0].roles);
+        console.log(data.name);
+        return fetchData(data.origin.url)
     })
-    .then(err => console.error(err));
+    .then(data=>{
+        console.log(data.dimension)
+    })
+    .catch(error =>console.error(error));
