@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "description": "Ejercicio de Asincronismo con una API Web Publica",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
     "callback:index": "node src/callback/index.js",
     "callback:challenge": "node src/callback/challenge.js",
-    "promesas:index":"node src/promesas/index.js",
+    "promesas:index": "node src/promesas/index.js",
     "promesas:challenge": "node src/promesas/challenge.js",
-    "async:index":"node src/async/index.js",
-    "async:challenge": "node src/async/challenge.js"
+    "async:index": "node src/async/index.js",
+    "async:challenge": "node src/async/challenge.js",
+    "fetch": "node fetch/fetch.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +29,7 @@
   },
   "homepage": "https://github.com/Enrique0305/CURSO-PRACTICO-JS#readme",
   "dependencies": {
+    "node-fetch": "^3.2.3",
     "xmlhttprequest": "^1.8.0"
   }
 }
