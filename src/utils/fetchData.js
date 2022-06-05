@@ -1,3 +1,4 @@
+// import { XMLHttpRequest } from 'xmlhttprequest';
 let XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest;
 
 
@@ -31,5 +32,7 @@ const fetchData = (url_api)=>{
 //     }
 //     xhttp.send();
 // }
-
-module.exports = fetchData;
+// export default fetchData;
+// export {fetchData};
+// export default fetchData;
+module.exports =fetchData;

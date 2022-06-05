@@ -1,4 +1,6 @@
-const fetchData = require('../utils/fetchData');
+// import {fetchData} from '../utils/fetchData.js';
+const fetchData = require('../utils/fetchData.js');
+// import {fetchData} from '../utils/fetchData';
 const API = 'https://rickandmortyapi.com/api/character/';
 
 fetchData(API)

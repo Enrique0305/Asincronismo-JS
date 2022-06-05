@@ -2,16 +2,23 @@
 
 const somethingWillHappen =()=>{
     return new Promise((resolve,reject)=>{
-        if(true){
-            resolve('Me resolvi');
-        } else {
-            reject('No me resolvi');
-        }
+        // if(true){
+        //     resolve('Me resolvi');
+        // } else {
+        //     reject('No me resolvi');
+        // }
+        (true) ? resolve('Me resolvi'):reject('No me resolvi');
     });
 }
 
 somethingWillHappen()
     .then(response => console.log(response))
+    // .then()
+    // .then()
+    // .then()
+    // .then()
+    // .then()
+    // .then()
     .catch(err => console.error(err));
 
 

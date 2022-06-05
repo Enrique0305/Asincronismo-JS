@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Ejercicio de Asincronismo con una API Web Publica",
   "main": "src/index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "callback:index": "node src/callback/index.js",
     "callback:challenge": "node src/callback/challenge.js",

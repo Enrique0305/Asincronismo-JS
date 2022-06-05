@@ -1,5 +1,6 @@
 //Funcion para darle vida a las llamadas de mi api
-let XMLHttprequest = require('xmlhttprequest').XMLHttpRequest;
+import { XMLHttpRequest as XMLHttprequest } from 'xmlhttprequest';
+//const XMLHttpRequest =require('xmlhttprequest');
 
 let API='https://rickandmortyapi.com/api/character/';
 
